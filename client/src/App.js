@@ -14,7 +14,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Fib Calculator</h1>
             <Link to="/">Home</Link>
-            <Link to="/otherpage">Just Page</Link>
+            <Link to="/otherpage">Second Page</Link>
           </header>
           <div>
             <Route exact path="/" component={Fib} />
