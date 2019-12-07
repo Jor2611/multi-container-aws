@@ -3,28 +3,28 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "jorakhachatryna/multi-client",
+      "image": "jorakhachatryan/multi-client",
       "hostname": "client",
       "essential": false,
       "memory": 128
     },
     {
-      "name": "worker",
-      "image": "jorakhachatryna/multi-worker",
-      "hostname": "worker",
-      "essential": false,
-      "memory": 128
-    },
-    {
       "name": "server",
-      "image": "jorakhachatryna/multi-server",
+      "image": "jorakhachatryan/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
+      "name": "worker",
+      "image": "jorakhachatryan/multi-worker",
+      "hostname": "worker",
+      "essential": false,
+      "memory": 128
+    },
+    {
       "name": "nginx",
-      "image": "jorakhachatryna/multi-nginx",
+      "image": "jorakhachatryan/multi-nginx",
       "hostname": "nginx",
       "essential": true,
       "portMappings": [
